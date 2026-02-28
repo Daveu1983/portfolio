@@ -19,8 +19,8 @@
 
 ## Live Deployment
 
-- [ ] CHK008 GitHub Pages source set to **GitHub Actions** in repository settings — manual step, pending
-- [ ] CHK009 GitHub Actions workflow runs successfully after a push to `main`
-- [ ] CHK010 Site loads at `https://daveu1983.github.io/portfolio/` with no console 404 errors
-- [ ] CHK011 All nav links (About, Projects, Contact) scroll to the correct sections
-- [ ] CHK012 All external links (GitHub, LinkedIn, project URLs) open correctly in a new tab
+- [x] CHK008 GitHub Pages source set to **GitHub Actions** in repository settings
+- [x] CHK009 GitHub Actions workflow runs successfully after a push to `main`
+- [x] CHK010 Site loads at `https://daveu1983.github.io/portfolio/` with no console 404 errors
+- [x] CHK011 All nav links (About, Projects, Contact) scroll to the correct sections
+- [x] CHK012 All external links (GitHub, LinkedIn, project URLs) open correctly in a new tab
