@@ -10,15 +10,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: '#3f51b5', // Indigo
-        'primary-dark': '#303f9f',
-        'primary-light': '#c5cae9',
-        secondary: '#ff4081', // Pink
-        'neutral-dark': '#212121',
-        'neutral-light': '#757575',
-        'neutral-lighter': '#f5f5f5',
-        background: '#ffffff',
-        text: '#212121',
+        'bg-base':      '#0d1117',
+        'bg-surface':   '#161b22',
+        'bg-border':    '#30363d',
+        'accent-blue':  '#58a6ff',
+        'accent-green': '#3fb950',
+        'accent-purple':'#bc8cff',
+        'text-primary': '#e6edf3',
+        'text-muted':   '#8b949e',
+      },
+      fontFamily: {
+        mono: ['var(--font-mono)', 'JetBrains Mono', 'Fira Code', 'monospace'],
+        sans: ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

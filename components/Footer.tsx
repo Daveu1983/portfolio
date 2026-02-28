@@ -2,15 +2,28 @@
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-neutral-lighter border-t border-gray-200 mt-8">
-      <div className="container mx-auto p-4 flex flex-col sm:flex-row justify-between items-center text-center sm:text-left">
-        <p className="text-neutral-light text-sm mb-4 sm:mb-0">
-          &copy; {currentYear} My Portfolio.
+    <footer className="bg-bg-surface border-t border-bg-border mt-16">
+      <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <p className="text-text-muted text-sm font-mono">
+          &copy; {currentYear} Built with Spec-kit, Next.js &amp; Tailwind.
         </p>
-        <div className="flex space-x-4">
-          <a href="#" className="text-neutral-light hover:text-primary">GitHub</a>
-          <a href="#" className="text-neutral-light hover:text-primary">LinkedIn</a>
-          <a href="#" className="text-neutral-light hover:text-primary">Twitter</a>
+        <div className="flex items-center gap-6">
+          <a
+            href="https://github.com/daveu1983"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-text-muted hover:text-accent-blue text-sm transition-colors"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://linkedin.com/in/david-underwood-6b929858"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-text-muted hover:text-accent-blue text-sm transition-colors"
+          >
+            LinkedIn
+          </a>
         </div>
       </div>
     </footer>

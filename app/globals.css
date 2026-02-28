@@ -2,4 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* You can add your custom global styles here */
+body {
+  background-color: #592297;
+  color: #e6edf3;
+}
+
+html {
+  scroll-behavior: smooth;
+}

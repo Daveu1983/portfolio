@@ -1,16 +1,15 @@
-import { getArticleBySlug } from '../lib/markdown';
+import Hero     from '../components/sections/Hero';
+import About    from '../components/sections/About';
+import Projects from '../components/sections/Projects';
+import Contact  from '../components/sections/Contact';
 
-export default async function HomePage() {
-  const article = await getArticleBySlug('welcome');
-
-  if (!article) {
-    return <div className="text-center text-neutral-light">Article not found.</div>;
-  }
-
+export default function HomePage() {
   return (
-    <article className="prose lg:prose-xl max-w-none">
-      <h1>{article.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: article.content || '' }} />
-    </article>
+    <>
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+    </>
   );
 }
